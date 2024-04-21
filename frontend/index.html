@@ -3,88 +3,178 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="images/favicons/favicon.png" type="image/png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML 101</title>
-    <!-- Basic CSS (Cascading Style Sheets) -->
-    <style>
-        body {
-            background-color: black;
-            color: white;
-        }
-    </style>
-    <script>
-        // Basic Java Script to be added
-        alert("Hello World!")
-    </script>
-    <script src="first_script.js"></script>
+    <title>HTML 201</title>
 </head>
 <body>
-    <h1>Welcome to HTML 101</h1>
-    <h2>A beginners guide to coding</h2>
-    <a href="https://google.com">Google.com</a><br/>
-    <a href="second_page.html">Relative Link#1</a>
-    <br/>
-    <a href="https://youtube.com" target="_blank">New Tab Link</a>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti obcaecati dolore magnam iusto molestiae amet et voluptatum adipisci vero qui voluptatibus nihil recusandae accusamus quia architecto, asperiores a error totam.
-    </p>
-    <!--
-        White Space Doesn't Matter
-    -->
-    <h3>Element Nesting Example</h3>
-    
-    <div>
-        This is a div element
-        <div>
-            This is a nested element
-            <p>This is a paragraph</p>
-        </div>
-    </div>
-
-    <p>
-        <b>Lorem ipsum dolor sit</b> amet consectetur adipisicing elit. <i>Officiis esse eligendi</i> quia, cumque, provident sunt tempora in incidunt aliquam maxime voluptas dolorum, magnam nulla! <u>Debitis sint corporis</u> quia laudantium id.
-    </p>
-    <hr>
-    <p>
-        <b>
-            <i>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </i>
-        </b>
-    </p>
-    <div>
-        Div has no special meaning.
-        It is a block element
-    </div>
-    <div>
-        This is a second line and not continuation as told in white space comment
-    </div>
-    h1 to hx, p and div are block elements <br/>
-    u, b, i are inline elements (can stay in the same line.)
-    <h3>Images from <a href="https://unsplash.com" target="_blank">Unsplash.com</a></h3>
-    <img 
-        src="office_room.jpg" 
-        alt="Office Room" 
-        width="500"
-    >
+    <h1 id="top">Welcome to HTML 201</h1>
+    <a href="#bottom">Scroll to Bottom of page</a> <!--Internal Links-->
     <br>
-    <a href="second_page.html">
-        <img 
-            src="office_room.jpg"
-            alt="Office Room" 
-            height="100"
-        >
-    </a>
-    <h3>Lists</h3>
-    Ordered List
-    <ol>
-        <li>First Item</li>
-        <li>Second Item</li>
-    </ol>
-    Un-ordered List
-    <ul>
-        <li>First Item</li>
-        <li>Second Item</li>
-    </ul>
+    <u>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nisi voluptatem tenetur delectus est veniam accusamus omnis culpa odit consequuntur quos beatae quasi aspernatur, labore sunt dolorem illo similique et.</u>
+    <br>
+    <span style="text-decoration: underline;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nisi voluptatem tenetur delectus est veniam accusamus omnis culpa odit consequuntur quos beatae quasi aspernatur, labore sunt dolorem illo similique et.</span>
+    <u>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nisi voluptatem tenetur delectus est veniam accusamus omnis culpa odit consequuntur quos beatae quasi aspernatur, labore sunt dolorem illo similique et.</u>
+    <br>
+    <span style="text-decoration: underline;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nisi voluptatem tenetur delectus est veniam accusamus omnis culpa odit consequuntur quos beatae quasi aspernatur, labore sunt dolorem illo similique et.</span>
+    <u>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nisi voluptatem tenetur delectus est veniam accusamus omnis culpa odit consequuntur quos beatae quasi aspernatur, labore sunt dolorem illo similique et.</u>
+    <br>
+    <span style="text-decoration: underline;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nisi voluptatem tenetur delectus est veniam accusamus omnis culpa odit consequuntur quos beatae quasi aspernatur, labore sunt dolorem illo similique et.</span>
+    <u>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nisi voluptatem tenetur delectus est veniam accusamus omnis culpa odit consequuntur quos beatae quasi aspernatur, labore sunt dolorem illo similique et.</u>
+    <br>
+    <span style="text-decoration: underline;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nisi voluptatem tenetur delectus est veniam accusamus omnis culpa odit consequuntur quos beatae quasi aspernatur, labore sunt dolorem illo similique et.</span>
+    <u>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nisi voluptatem tenetur delectus est veniam accusamus omnis culpa odit consequuntur quos beatae quasi aspernatur, labore sunt dolorem illo similique et.</u>
+    <br>
+    <span style="text-decoration: underline;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nisi voluptatem tenetur delectus est veniam accusamus omnis culpa odit consequuntur quos beatae quasi aspernatur, labore sunt dolorem illo similique et.</span>
+    <!--use span text decoration as u is deprecated though both do the same-->
+    <div><img src="images/computer.jpg" alt="Computer" height="500"></div>
+
+    <table border="1" width="100%">
+        <tr>
+            <td>
+                Cell 1
+            </td>
+            <td>
+                Cell 2
+            </td>
+            <td>
+                Cell 3
+            </td>
+        </tr>
+        <tr>
+            <td>
+                R2 Cell 1
+            </td>
+        </tr>
+    </table>
+    <hr>
+    <table border="1" width="100%">
+        <tr>
+            <td>
+                Cell 1
+            </td>
+            <td>
+                Cell 2
+            </td>
+            <td>
+                Cell 3
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                R2 Cell 1
+            </td>
+        </tr>
+    </table>
+    <hr>
+    <table border="1" width="100%">
+        <tr>
+            <td rowspan="2">
+                Cell 1
+            </td>
+            <td>
+                Cell 2
+            </td>
+            <td>
+                Cell 3
+            </td>
+        </tr>
+        <tr>
+            <td>
+                R2 Cell 1
+            </td>
+        </tr>
+    </table>
+    <hr>
+    <table border="1" width="100%">
+        <tr>
+            <th colspan="2">Welcome to the webiste</th>
+        </tr>
+        <tr>
+            <td width="20%" >
+                <h3>Navigation Pane</h3>
+            </td>
+            <td>
+                <h3>Content</h3>
+            </td>
+        </tr>
+    </table>
+    <hr>
+    <div style="padding: 40px; color: white;background-color: black;">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia optio nisi laborum impedit! Aliquam, enim! Commodi deserunt similique vero ducimus rerum possimus, labore maxime, nisi qui incidunt voluptatum provident explicabo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas magni adipisci nam illo reiciendis officiis temporibus dolorum sed quia aut, minima porro alias atque voluptate fugiat laudantium, nisi quo tempore!
+    </div>
+    <style>
+        .mycss{
+            padding: 40px;
+            color: white;
+            background-color: black;
+        }
+        .uppercase{
+            text-transform: uppercase;
+        }
+        #testingId{
+            border: 15px solid red;
+        }
+    </style>
+    <br>
+    <hr>
+    <br>
+    <div class="mycss uppercase">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita sapiente, laboriosam debitis doloremque est, placeat aspernatur voluptatum quaerat ex numquam rerum dicta ullam non reprehenderit, dolore dolor? Sequi, nihil optio? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora quae aut voluptas explicabo temporibus consectetur? Ad nisi magnam totam doloremque itaque, architecto officiis optio, eaque eos at deleniti sit. Iure.
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div id="testingId">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore necessitatibus provident vitae eos iusto alias ullam consectetur praesentium, tenetur quis? Velit explicabo, eos illum laudantium nobis qui? Dignissimos, similique corrupti?
+    </div>
+    <h3>Format COde</h3>
+    <pre>
+        Some Stuff here
+        Second line here
+        White Spaces      matter
+    </pre>
+    <p>
+        <code>Lorem ipsum dolor sit</code> amet consectetur adipisicing elit. Odio repudiandae modi repellendus molestiae commodi alias veritatis expedita nulla tenetur fugit odit sunt, sint aspernatur exercitationem. Quia deleniti sunt blanditiis earum? <code>White space    ignored</code>
+    </p>
+    <h3>html entities</h3>
+    <b>This is bold</b>
+    <br>
+    &lt;b&gt; This is not bold &lt;/b&gt; </b> <!--Ignored the last-->
+    <h3>Embeds</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/vQChW_jgMMM?si=sb2xcfQqmqIiTtaX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/vQChW_jgMMM?si=flPKywSuEKFAd6rX&amp;start=327" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> <!--Start point mentioned-->
+    <h3>Forms</h3>
+    <form action="" method="GET">
+        <div>
+            <input required type="password" value="Hello world" placeholder="Enter your name" >
+        </div>
+        <div>
+            <input type="search">
+        </div>
+        <div>
+            <textarea name="" id="" cols="50" rows="5" placeholder="Wowwww!!">Text in here
+White Space        does matter
+            </textarea>
+        </div>
+        <div>
+            <select name="selected_option" id="">
+                <option value="value1" disabled>This is value 1</option>
+                <option value="value2">This is value 2</option>
+                <option value="value3">This is value 3</option>
+                <option value="value4">This is value 4</option>
+                <option value="value5" selected>This is value 5</option>
+            </select>
+        </div>
+        <button>Submit this Form</button>
+        <button type="button">Usual</button>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+    </form>
+    <h3 id="bottom">Bottom of the Page</h3>
+    <div>
+        <a href="#top">Top of the Page</a>
+        <sup>&copy;</sup>2024 H<sub>2</sub>O
+    </div>
 </body>
 </html>
